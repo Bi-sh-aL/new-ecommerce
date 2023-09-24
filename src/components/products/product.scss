@@ -53,3 +53,8 @@
         color: #999999;
     }
 }
+@media screen and (max-width:640px){
+    .pro img{
+        height:100% !important;
+    }
+}
