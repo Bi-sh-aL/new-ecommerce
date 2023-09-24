@@ -14,7 +14,7 @@ function Hero() {
                     <a href="" className='btn btn-dark px-3'>Shop Now</a>
                 </div>
                 <div className="col-lg-8 col-md-6 col-sm-12 image">
-                    <img src="https://wp.alithemes.com/html/guza/demos/assets/imgs/page/homepage2/banner.png" className='w-100' alt="" height={650}/>
+                    <img src="https://wp.alithemes.com/html/guza/demos/assets/imgs/page/homepage2/banner.png" className='w-100' alt="" height={650} loading='lazy'/>
                 </div>
             </div>
         </div>

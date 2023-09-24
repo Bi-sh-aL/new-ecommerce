@@ -11,7 +11,7 @@ function Blog() {
           {BlogData.map((a)=>(
            <div key={a.id} className="col-lg-4">
             <div className='overflow-hidden preview mt-4'>
-              <img src={a.img} alt="" className='w-100' height={250}/>
+              <img src={a.img} alt="" className='w-100' height={250} loading='lazy'/>
             </div>
             <div className='d-flex align-items-center gap-3  pt-4 cat-text'>
               <p><a href="#">{a.cat}</a></p>

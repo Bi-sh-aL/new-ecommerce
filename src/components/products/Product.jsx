@@ -13,7 +13,7 @@ function Product() {
             {ProductData.map((a)=>(
                 <div key={a.id} className="col-lg-3 col-md-6 gy-4 pro">
                     <div className="overflow-hidden product position-relative">
-                     <img src={a.img} alt="" className='w-100 bg-body-tertiary p-4' height={400}/>
+                     <img src={a.img} alt="" className='w-100 bg-body-tertiary p-4' height={400} loading="lazy"/>
                      <div className="text-center bg-dark text-light option">
                         <p className="py-2">Select opions</p>
                      </div>

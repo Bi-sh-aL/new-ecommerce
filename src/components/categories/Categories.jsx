@@ -18,7 +18,7 @@ function Categories() {
                       <h4>{a.name}</h4>
                       <p className='fs-6 fw-normal'>{a.items}</p>
                   </div>
-                  <img src={a.image} alt="" className='' height={250}/>
+                  <img src={a.image} alt="" className='' height={250} loading='lazy'/>
                   </div>
               </div>  
                 ))}
