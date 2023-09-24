@@ -1,0 +1,31 @@
+.count{
+    background-color: #ECC6C2;
+    overflow: hidden;
+    span{
+        font-size: 17px;
+        font-weight: 500;
+        color: #ed0006;
+    }
+    h2{
+        font-size: 40px;
+        padding: 10px 0;
+    }
+    img:hover{
+        transform: scale(1.05);
+        transition: 0.9s ease-in-out;
+    }
+}
+
+.time{
+    border: 2px solid black !important;
+    border-radius: 5px;
+    width: 80px;
+    p{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

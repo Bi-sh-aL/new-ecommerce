@@ -1,0 +1,14 @@
+.insta p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212529;
+    padding-bottom: 20px;
+}
+
+.insta{
+    padding-top: 5rem !important;
+    img:hover{
+        transform: scale(1.03);
+        transition: 0.4s ease-in-out;
+    }
+}

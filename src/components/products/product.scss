@@ -1,0 +1,52 @@
+.product{
+    height: 400px;
+    &:hover .option{
+        transform: translateY(-100%);
+    }
+    &:hover .quick-button{
+        transform: translateX(10%);
+    }
+}
+.option{
+    transform: translateY(50%);
+    transition: 0.8s ease-out;
+    &:hover{
+        cursor: pointer;
+        background-color: #C8815F !important;
+
+    }
+}
+
+.quick-button{
+    z-index: 222;
+    right: 30px;
+    top: 50px;
+    transform: translateX(200%);
+    transition: 0.8s ease-out;
+   
+}
+.icn:hover{
+    background: #111111 !important;
+    color: #fff;
+    cursor: pointer;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+
+.pro{
+    h4{
+        font-size: 16px;
+        font-weight: 500;
+        color: #101010;
+        &:hover{
+            color: #c8815f;
+            cursor: pointer;
+        }
+    }
+    .prc{
+        font-size: 17px;
+        font-weight: 400;
+        color: #999999;
+    }
+}

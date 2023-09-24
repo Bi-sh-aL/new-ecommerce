@@ -1,0 +1,49 @@
+.subscribe{
+    padding: 4rem 0;
+    h2{
+        font-size: 34px;
+        font-weight: 500;
+        color:#212529;
+        span{
+           color: #ed0006; 
+        }
+    }
+
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: #555555;
+    }
+    input{
+        border: none;
+        
+        outline: none !important;
+     }
+    
+    .box-form-subscribe .form-sub .form-control {
+        border: 0px;
+        padding: 5px 20px;
+        height: 40px;
+        background-color: transparent;
+    }
+    .form-control {
+        height: 48px;
+        border-radius: 4px;
+        color: #555555;
+        border: none;
+        padding: 10px 20px;
+        border: none !important;
+        outline: none !important;
+    }
+    .btn-subscribe {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #111111;
+        padding: 5px 20px;
+    }
+    .sub{
+        padding: 10px 0;
+    }
+}
+

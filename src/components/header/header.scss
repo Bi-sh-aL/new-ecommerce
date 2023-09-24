@@ -1,0 +1,70 @@
+header li{
+    font-size: 20px;
+    
+}
+.nav-link{
+    font-size: 20px !important;
+    padding: 5px 10px !important;
+    margin-top: 12px;
+    &:hover{
+        color: #c8815f !important;
+    }
+}
+header button{
+    border: none !important;
+}
+header p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.icon{
+    margin-right: 1.3rem;
+    margin-top: 12px;
+}
+.bag::after{
+    content: "1";
+    height: 20px;
+    aspect-ratio: 1/1;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    padding: 2px;
+    border-radius: 50%;
+    background: #111111;
+    position: absolute;
+    top: -5px;
+    right: -16px;
+
+}
+
+.heart::after{
+    content: "3";
+    height: 20px;
+    aspect-ratio: 1/1;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    padding: 2px;
+    border-radius: 50%;
+    background: #111111;
+    position: absolute;
+    top: -5px;
+    right: -18px;
+
+}
+
+.icon:hover{
+    color: #c8815f;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+nav.sticky{
+    background-color: #fff !important;
+    position: sticky;
+    top: 0;
+    transition: 10s ease-in-out;
+    z-index: 100;
+}
+
+  
