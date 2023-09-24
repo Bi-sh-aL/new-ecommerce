@@ -3,7 +3,7 @@ import Insta2 from '../../assets/instagram2.jpg'
 import Insta3 from '../../assets/instagram3.jpg'
 import Insta4 from '../../assets/instagram4.jpg'
 import Insta5 from '../../assets/instagram5.jpg'
-import Insta6 from '../../assets/instagram6.avif'
+import Insta6 from '../../assets/instagram6.jpg'
 
 const Data=[
     {

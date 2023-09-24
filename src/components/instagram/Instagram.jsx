@@ -10,7 +10,7 @@ function Instagram() {
         <div className="row pt-3 gx-1 gy-1">
             {Data.map((a)=>(
                <div key={a.id} className="col-lg-2 col-md-4  overflow-hidden">
-                 <img src={a.image} alt="" className='w-100' height={270} loading='lazy'/>
+                 <img src={a.image} alt="" className='w-100 h-100' loading='lazy'/>
                </div>
             ))}
             
