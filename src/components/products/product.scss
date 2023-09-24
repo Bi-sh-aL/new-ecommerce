@@ -7,9 +7,12 @@
         transform: translateX(10%);
     }
 }
+.quick-button{
+    transition: 0.9s ease-in-out;
+}
 .option{
     transform: translateY(50%);
-    transition: 0.8s ease-out;
+    transition: 0.9s ease-in-out;
     &:hover{
         cursor: pointer;
         background-color: #C8815F !important;
